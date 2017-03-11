@@ -93,10 +93,10 @@ void main()
 	}
 	for(i=0;i<n;i++)
 	{
-	a1=a1+ct[i];
-	a2=a2+tat[i];
-	a3=a3+wt[i];
-	a4=a4+rt[i];		
+		a1=a1+ct[i];
+		a2=a2+tat[i];
+		a3=a3+wt[i];
+		a4=a4+rt[i];		
 	}
 	printf("process table = \n");
 	printf("process \t at \t bt \t ct \t tat \t wt \t rs \t\n");
