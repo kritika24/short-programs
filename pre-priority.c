@@ -4,8 +4,7 @@ void main()
 {
 	int pr[20],n,p[20],at[20],bt[10],wt[10],t=0,kt[20],c[10][10],tat[10],ct[10],i=0,j=0,k=0,s=0,rt[10],lt[10],a=0,a1,a2,a3,a4,count=0;
 	printf("enter the number of processes\n");
-	scanf("%d",&n);
-	printf("enter the priority,arrival time and burst time in order\n");
+	scanf("%d",&n);//entered the number of processes
 	for(i=0;i<n;i++)
 	{
 		printf("enter the priority for p%d\n",i);
@@ -17,7 +16,7 @@ void main()
 		kt[i]=bt[i];
 		rt[i]=-1;
 		pr[i]=i;
-	}//entered data
+	}//entered the arrival time ,burst time, priority
 	while(count!=n)
 	{
 		t++;
@@ -30,10 +29,10 @@ void main()
 				c[j][2]=p[i];
 				j++;
 			}
-			else
+			/*else
 			{
 				continue;
-			}
+			}*/
 		}	//storing in 2d array
 		for(i=0;i<j;i++)
 		{
